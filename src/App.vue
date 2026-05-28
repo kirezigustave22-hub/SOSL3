@@ -1,14 +1,13 @@
-<script setup></script>
-
+<script setup>
+//import Home  from './view/home.vue'
+ import Navbar from './components/Navbar.vue';
+ import { RouterView } from 'vue-router';
+ import Footer from './components/footer.vue';
+</script>
 <template>
-   
-  <h1 class="font-bold text-center text-blue-500">SOS Technical School</h1>
-  <p>
-Empowering future professionals through quality technical education,
-practical skills training, innovation, and excellence to build a better
-world with technology and digital solutions.
-  </p>
+  <Navbar/>
+  <RouterView/>
+ <!--<home/>-->
+  <Footer/>
 </template>
 
-
-    
