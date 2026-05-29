@@ -2,21 +2,48 @@
     <!--About Us-->
 
     <section class=" relation h-screen bg-screen bg-cover bg-center flex flex-col items-center justify-center text-white "
-    style="background-image:url('../src/assets/city.png')">
-    <div class="bg-black/40 bg-opacity-50 absolute inset-0">
+     style="background-image:url('../src/assets/city.png')">
+     <div class="bg-black/40 bg-opacity-50 absolute inset-0">
 
-    </div>
-    <div class="relative text-center px-4">
+     </div>
+     <div class="relative text-center px-4">
         <h1 class="text-5xl font-bond mb-4">CLEANLINESS OF THE CITY</h1>
         <p class="text-xl mb text-green-300">The country provide you a better view for it Nature
             and climate with cleaness and security to all.
         </p>
 
-    </div>
-    <button class="text-white bg-green-500 text-center px-6 py-3">
+     </div>
+     <button class="text-white bg-green-500 text-center px-6 py-3">
         click here
-    </button>
+     </button>
 
     </section>
+    <section class="py-16 bg-white text-gray-900">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold mb-4">Explore the Greatness of KIGALI</h2>
+          <p class="text-lg text-green-700">Experience vibrant culture, breathtaking landscapes, and unforgettable journeys across the country.</p>
+        </div>
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="rounded-lg border border-green-200 p-8 shadow-sm">
+            <h3 class="text-2xl font-semibold mb-3">City Life</h3>
+            <p>Discover Kigali's markets, museums, and hilltop views with a local guide.</p>
+            <img src="../assets/city.png" alt="city" class="h-35 mb-5">
+          </div>
+          <div class="rounded-lg border border-green-200 p-8 shadow-sm">
+            
+            <h3 class="text-2xl font-semibold mb-3">Nature & Adventure</h3>
+            <p>Visit the green hills of the north, waterfalls in the east, and lakes in the west.</p>
+             <img src="../assets/kivu.jpg" alt="kivu" class="h-35 mb-5">
+          </div>
+          <div class="rounded-lg border border-green-200 p-8 shadow-sm">
+            <h3 class="text-2xl font-semibold mb-3">Culture & Food</h3>
+            <p>Enjoy traditional cuisine, music, and community experiences across the regions.</p>
+            <img src="../assets/ny.png" alt="ny" class="h-35 mb-5">
+          </div>
+        </div>
+      </div>
+    </section>
 </template> 
+
 

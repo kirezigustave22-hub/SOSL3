@@ -16,8 +16,7 @@
             <ul class=" space-y-2 text-sm">
                 
                    <li><RouterLink to="/" class="hover:text-yellow-300">home</RouterLink></li> 
-                    <li><RouterLink to="/About" class="hover:text-yellow-300">About</RouterLink></li>
-                   <li><RouterLink to="/contact" class="hover:text-yellow-300">contact</RouterLink></li>
+                    <li><RouterLink to="/about" class="hover:text-yellow-300">About</RouterLink></li>
                     <li><RouterLink to="/service" class="hover:text-yellow-300">service</RouterLink></li>
             
 
@@ -58,3 +57,4 @@
 
     </footer>
 </template>
+

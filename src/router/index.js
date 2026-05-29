@@ -17,9 +17,9 @@ const routes =[
     },
 
 {
-      path:"/About",
-     name:"About",
-     component:About  
+        path:"/about",
+        name:"about",
+         component:About  
     },
 
 
@@ -36,7 +36,7 @@ const routes =[
     },
 
     {
-        path:"/Kigali",
+        path:"/kigali",
         name:"Kigali",
         component:Kigali
 
@@ -72,11 +72,6 @@ const routes =[
 
 
 ]
-
-
- 
- 
-
 
 const router = createRouter(
     {
