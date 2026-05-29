@@ -1,5 +1,5 @@
 <template>
-    <!--About Us-->
+    <!--about-->
 
     <section class=" relation h-screen bg-screen bg-cover bg-center flex flex-col items-center justify-center text-white "
      style="background-image:url('../src/assets/city.png')">

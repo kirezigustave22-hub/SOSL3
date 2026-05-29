@@ -1,17 +1,16 @@
-<script setup>
-import { RouterLink } from 'vue-router';
-</script>
 <template>
 <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow">
     <RouterLink to="/" class="inline-flex items-center gap-3">
       <img src="../Assets/rw.png" alt="logo" class="h-10">
-      <span class="text-xl font-bold">TEMBERA U Rwanda</span>
+      <span class="text-xl font-bold"> TEMBERA U Rwanda</span>
     </RouterLink>
     <ul class="flex gap-8 text-sm font-medium w-full px-5 justify-end">
+
         <li><RouterLink to="/" class="hover:text-yellow-300">home</RouterLink></li>
         <li><RouterLink to="/about" class="hover:text-yellow-300">about</RouterLink></li>
         <li><RouterLink to="/service" class="hover:text-yellow-300">service</RouterLink></li>
         <li><RouterLink to="/contact" class="hover:text-yellow-300">contact</RouterLink></li>
+        
         <li class="relative group">
             <span class="hover:text-yellow-300 cursor-pointer inline-flex items-center gap-1">gallery<span>v</span></span>
             <ul class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -30,6 +29,7 @@ import { RouterLink } from 'vue-router';
             </ul>
          </li>
     </ul>
+
 </nav>
 </template>
 
