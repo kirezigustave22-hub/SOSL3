@@ -37,7 +37,7 @@
             <img src="../assets/rwanda.jpg" alt="Culture & Food" class="w-full h-auto mt-4 rounded-lg shadow-md">
           </div>
         </div>
-      </div>
+      </div>~
     </section>
 </template>
 

@@ -1,13 +1,13 @@
 import{createRouter, createWebHistory} from "vue-router"
-import home from "../view/home.vue";
-import about from  "../view/about.vue";
-import contact from "../view/contact.vue";
-import service from "../view/service.vue";
-import Kigali from   "../view/Kigali.vue"
-import eastern from "../view/eastern.vue";
-import southern from "../view/southern.vue";
-import northern from "../view/northern.vue";
-import western from "../view/western.vue";
+import home from "../views/home.vue";
+import about from  "../views/about.vue";
+import contact from "../views/contact.vue";
+import service from "../views/service.vue";
+import Kigali from   "../views/Kigali.vue"
+import eastern from "../views/eastern.vue";
+import southern from "../views/southern.vue";
+import northern from "../views/northern.vue";
+import western from "../views/western.vue";
 
 const routes =[ 
     {
