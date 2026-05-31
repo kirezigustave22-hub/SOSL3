@@ -17,7 +17,7 @@
     <h2 class="text-2xl font-semibold mt-4 mb-4">Popular Attractions</h2>
     <div class="grid gap-6 md:grid-cols-2">
       <div class="rounded-lg overflow-hidden shadow-md bg-white">
-        <img src="../Assets/bisate.jpg" alt="Bisate" class="w-full h-64 object-cover">
+        <img src="../Assets/Bisate.jpg" alt="Bisate" class="w-full h-64 object-cover">
         <div class="p-4">
           <h3 class="text-xl font-semibold mb-2">Bisate</h3>
           <p class="text-gray-600">A picturesque lodge area with beautiful views and forest trails.</p>
