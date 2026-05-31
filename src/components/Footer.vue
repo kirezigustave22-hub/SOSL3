@@ -9,14 +9,14 @@ import { RouterLink } from 'vue-router'
         
         <div>
             <h3 class="text-yellow-300 font-bold text-lg mb-3">TEMBERAURWANDA</h3>
-            <P class="text-sm text-white-400">Discover the beauty of the land of thousand hills</P>
+            <p class="text-sm text-white-400">Discover the beauty of the land of thousand hills</p>
             <ul class=" space-y-2 text-sm">
                 
             </ul>
         </div>
          <!--Quick links -->
          <div>
-            <h3 class="text-yellow-300 front-bold text-lg mb-3">Quick links</h3>
+            <h3 class="text-yellow-300 font-bold text-lg mb-3">Quick links</h3>
             <ul class=" space-y-2 text-sm">
                 
                    <li><RouterLink to="/" class="hover:text-yellow-300">home</RouterLink></li> 

@@ -1,8 +1,12 @@
+<script setup>
+
+</script>
+
 <template>
     <!--Hero section-->
 
-    <section class=" relation h-screen bg-screen bg-cover bg-center flex flex-col items-center justify-center text-white "
-      style="background-image:url('../src/assets/ny.png')">
+    <section class=" relative h-screen bg-screen bg-cover bg-center flex flex-col items-center justify-center text-white "
+      :style="{ backgroundImage: `url(${city})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }">
       <div class="relative text-center px-4">
         <h1 class="text-5xl font-bold mb-4">welcome to Rwanda</h1>
         <p class="text-xl mb-4 text-green-300">the land of a thousand hills</p>
@@ -14,11 +18,13 @@
 
     </section>
 
+    
+
     <section class="py-16 bg-white text-gray-900">
       <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12 p-3">
           <h2 class="text-4xl font-bold mb-4">Explore the Heart of Rwanda</h2>
-          <img src="../assets/visit rwanda.jpg" alt="Visit Rwanda" class="mx-auto w-full max-w-3xl h-80 object-cover mt-4 rounded-lg shadow-md">
+          <img :src="visitRwanda" alt="Visit Rwanda" class="mx-auto w-full max-w-3xl h-80 object-cover mt-4 rounded-lg shadow-md">
         </div>
       </div>
     </section>

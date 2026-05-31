@@ -21,7 +21,6 @@ const routes =[
         name:"about",
         component:about
     },
-~
 
     {
        path:"/contact",

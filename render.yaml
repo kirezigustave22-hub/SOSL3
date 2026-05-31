@@ -1,9 +1,0 @@
-services:
-  - type: static_site
-    name: projectone
-    env: node
-    branch: main
-    buildCommand: npm install && npm run build
-    publishPath: dist
-    rootDir: .
-    plan: free
