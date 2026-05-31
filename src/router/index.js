@@ -1,6 +1,6 @@
 import{createRouter, createWebHistory} from "vue-router"
 import home from "../view/home.vue";
-import About from "../view/About.vue";
+import About from  "../view/about.vue";
 import contact from "../view/contact.vue";
 import service from "../view/service.vue";
 import Kigali from   "../view/Kigali.vue"
@@ -16,10 +16,10 @@ const routes =[
      component:home  
     },
 
-{
+    {
         path:"/about",
         name:"about",
-         component:About  
+        component:About
     },
 
 

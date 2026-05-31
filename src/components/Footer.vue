@@ -1,3 +1,7 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
 <template>
     <!--this is about of footer-->
     <footer class="bg-green-800 text-white px-8 py-10 mt-10">
@@ -16,7 +20,7 @@
             <ul class=" space-y-2 text-sm">
                 
                    <li><RouterLink to="/" class="hover:text-yellow-300">home</RouterLink></li> 
-                    <li><RouterLink to="/about" class="hover:text-yellow-300">About</RouterLink></li>
+                    <li><RouterLink to="/about" class="hover:text-yellow-300">about</RouterLink></li>
                     <li><RouterLink to="/service" class="hover:text-yellow-300">service</RouterLink></li>
             
 
