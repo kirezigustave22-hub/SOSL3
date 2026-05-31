@@ -38,6 +38,7 @@ import { RouterLink } from 'vue-router'
                  <li><RouterLink to="/western" class="hover:bg-yellow-300">western</RouterLink></li>
                  <li><RouterLink to="/northern" class="hover:bg-yellow-300">northern</RouterLink></li>
                  <li><RouterLink to="/eastern" class="hover:bg-yellow-300">eastern</RouterLink></li>
+                    <li><RouterLink to="/southern" class="hover:bg-yellow-300">southern</RouterLink></li>
             </ul>
         </div>
         <!--contact-->

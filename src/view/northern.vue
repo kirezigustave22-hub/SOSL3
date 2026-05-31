@@ -4,7 +4,7 @@
 
     <img
       src="../assets/birunga.jpg"
-      alt="Volcanoes National Park"
+      alt="Northern Province"
       class="w-full h-64 object-cover rounded-lg mb-6"
     />
 
