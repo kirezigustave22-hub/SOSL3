@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-green-800 text-white px-8 py-4 flex items-center shadow z-50">
     <RouterLink to="/" class="inline-flex items-center gap-3">
-      <img src="../Assets/city.jpg" alt="muhazi" class="h-10 w-10 object-cover rounded-full" />
+      <img src="../Assets/center.jpg" alt="muhazi" class="h-10 w-10 object-cover rounded-full" />
       <span class="font-bold text-xl">TEMBERA U Rwanda</span>
     </RouterLink>
 
