@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router'
             <ul class=" space-y-2 text-sm">
                 
                    <li><RouterLink to="/" class="hover:text-yellow-300">home</RouterLink></li> 
-                    <li><RouterLink to="/about" class="hover:text-yellow-300">about</RouterLink></li>
+                    <li><RouterLink to="/About" class="hover:text-yellow-300">about</RouterLink></li>
                     <li><RouterLink to="/service" class="hover:text-yellow-300">service</RouterLink></li>
             
 
@@ -62,4 +62,4 @@ import { RouterLink } from 'vue-router'
 
     </footer>
 </template>
-
+ 

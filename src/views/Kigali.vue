@@ -3,9 +3,10 @@
     <h1 class="text-4xl font-bold text-green-700 mb-4">Kigali City</h1>
     <img
       src="../Assets/city.png"
-      alt="Kigali City"
+      alt="Northern Province"
       class="w-full h-64 object-cover rounded-lg mb-6"
     />
+     
 
     <p class="text-lg text-gray-700 mb-4">
       Kigali is the capital city of Rwanda and one of the cleanest and safest
