@@ -54,7 +54,7 @@ import { RouterLink } from 'vue-router'
         </div>
         <!--place for copy right-->
         <div class="w-full text-center mt-8 text-sm text-green-300">
-            <p> &copy2027 Visit Rwanda. All rights reserved. </p>
+            <p> &copy2027 Visit Rwanda. All rights reserved. done by :  KIREZI Gustave </p>
 
         </div>
 

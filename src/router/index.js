@@ -8,6 +8,7 @@ import eastern from "../views/eastern.vue";
 import southern from "../views/southern.vue";
 import northern from "../views/northern.vue";
 import western from "../views/western.vue";
+import images from "../views/images.vue";
 
 const routes =[ 
     {
@@ -64,7 +65,15 @@ const routes =[
          path:"/western",
         name:"western",
         component:western
+    },
+
+    {
+        path:"/images",
+        name:"images",
+        component:images
     }
+    
+    
 
     
 
