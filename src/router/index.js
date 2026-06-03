@@ -9,6 +9,8 @@ import southern from "../views/southern.vue";
 import northern from "../views/northern.vue";
 import western from "../views/western.vue";
 import images from "../views/images.vue";
+import login from "../views/login.vue";
+import Dashboard from "../views/Dashboard.vue";     
 
 const routes =[ 
     {
@@ -71,6 +73,19 @@ const routes =[
         path:"/images",
         name:"images",
         component:images
+    },
+
+    {
+        path:"/login",
+        name:"login",
+        component:login
+    },
+
+    {
+        path:"/Dashboard",
+        name:"Dashboard",
+        component:Dashboard
+
     }
     
     

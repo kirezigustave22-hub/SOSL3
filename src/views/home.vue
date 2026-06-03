@@ -1,7 +1,7 @@
 <template>
     <!--Hero section-->
-    <section class="relative h-screen bg-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
-      style="background-image: url('../Assets/bk.jpg');">
+    <section class="relative h-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
+      :style="{ backgroundImage: `url(${bk})` }">
       <div class="relative text-center px-4">
         <h1 class="text-5xl font-bold mb-4">Explore Rwanda</h1>
         <p class="text-xl mb-4 text-green-300">
@@ -27,5 +27,8 @@
 
 </template>
 
+<script setup>
+import bk from '../Assets/bk.jpg'
+</script>
 
 

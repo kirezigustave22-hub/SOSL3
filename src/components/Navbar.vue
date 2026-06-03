@@ -1,11 +1,7 @@
 <template>
-  <nav class="bg-green-800 text-white px-8 py-4 flex items-center shadow z-50">
-    <RouterLink to="/" class="inline-flex items-center gap-3">
-      <img src="../Assets/center.jpg" alt="kigali" class="h-10 w-10 object-cover rounded-full" />
-      <span class="font-bold text-xl">TEMBERA U Rwanda</span>
-    </RouterLink>
-
-    <ul class=" cursor-pointer hover:yellow-300 flex gap-8 text-sm font-semibold ml-auto">
+  <nav
+    class="text-white bg-green-800 px-8 py-4 flex items-center shadow z-50 bg-cover bg-center">
+    <ul class="cursor-pointer flex gap-8 text-sm font-semibold ml-auto">
       <li><RouterLink to="/" class="block px-4 py-2 hover:bg-green-700">home</RouterLink></li>
       <li><RouterLink to="/about" class="block px-4 py-2 hover:bg-green-700">about</RouterLink></li>
       <li><RouterLink to="/contact" class="block px-4 py-2 hover:bg-green-700">Contact</RouterLink></li>
@@ -25,17 +21,26 @@
       <li class="relative group">
         <span class="hover:text-yellow-300 cursor-pointer inline-flex items-center gap-1">GALLERY<span>v</span></span>
         <ul class="absolute left-0 mt-2 w-44 bg-green-800 text-white rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
-          <li><RouterLink to="/images " class="block px-4 py-2 hover:bg-green-700">images</RouterLink></li>
+          <li><RouterLink to="/images" class="block px-4 py-2 hover:bg-green-700">images</RouterLink></li>
           <li><RouterLink to="/videos" class="block px-4 py-2 hover:bg-green-700">videos</RouterLink></li>
-         
-        </ul> 
-          
-        
+        </ul>
       </li>
+       <RouterLink
+        to="/login"
+        class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700"
+      >
+        Login
+      </RouterLink>
 
+      <RouterLink
+        to="/register"
+        class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700"
+      >
+        Register
+      </RouterLink>
     </ul>
-
   </nav>
 </template>
+
 
 
