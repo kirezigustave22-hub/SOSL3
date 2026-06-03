@@ -76,6 +76,37 @@ body{
       }
     }
 
+    .download-portfolio {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0f172a;
+  color: white;
+}
+
+.download-portfolio h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.download-portfolio p {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.download-btn {
+  background: #22c55e;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #16a34a;
+}
+
 #theme-toggle{
     padding:10px 15px;
     border:none;
