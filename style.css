@@ -155,6 +155,64 @@ body{
     padding:40px 10%;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-content {
+    background: #111122;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(109,92,255,0.3);
+}
+
+.about-content h3 {
+    color: #6d5cff;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.about-content p {
+    color: #c9c9c9;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.highlight-item {
+    background: #111122;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(109,92,255,0.3);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.highlight-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(109,92,255,0.4);
+}
+
+.highlight-item h4 {
+    color: #6d5cff;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.highlight-item p {
+    color: #c9c9c9;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
 .about h2,
 .projects h2{
     margin-bottom:20px;
@@ -210,6 +268,55 @@ body{
     border-radius:8px;
     margin:5px;
     font-size:14px;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.live-btn, .github-btn, .figma-btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.live-btn {
+    background: #6d5cff;
+    color: white;
+}
+
+.live-btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.github-btn {
+    background: #0066ff;
+    color: white;
+    border: 1px solid #0066ff;
+}
+
+.github-btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.figma-btn {
+    background: #6d5cff;
+    color: white;
+}
+
+.figma-btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
 }
 
 /* Light Mode */
@@ -274,8 +381,25 @@ body{
     background:white;
 }
 
-.light-mode .skill-card p{
-    color:#444;
+.light-mode .about-content,
+.light-mode .highlight-item {
+    background: white;
+}
+
+.light-mode .about-content p,
+.light-mode .highlight-item p {
+    color: #444;
+}
+
+@media(max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Contact Section */
